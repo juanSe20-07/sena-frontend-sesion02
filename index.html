@@ -18,6 +18,7 @@
     <ul>
         <li><a href="/">Inicio</a></li>
         <li><a href="/">Descripcion</a></li>
+        <li><a href="/">Contacto</a></li>
     </ul>
     </nav>
 </header>
@@ -37,27 +38,43 @@
             <tbody>
                 </tr>
                     
-                    <td>le gusta jugat futbol</td>
-                    <td>le gusta la musica</td>
+                    <td>le gusta jugar futbol</td>
+                    <td>no le gusta viajar </td>
                 </tr>
             </tbody>
+            </table>
         <figure>
         <img width= 40% src="/img/ventajas-de-programar-en-php_15_1_845x515.jpg" alt="programacion">
         
         <figcaption>Programacion</figcaption>
         
         </figure>
-        </table>
+        
     </article>
 
+    <form action="/enviar" method="post"> 
+        <label for="nombre">Nombre completo:</label>   
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <button type="submit">Enviar</button>
+
+</form>
+
     </section>
-
-    <aside>
-    <h3>Artículos relacionados</h3>
-    </aside>
-
 </main>
-
+<div>
+    <aside>
+        <h3>Articulos relacionados</h3>
+        <ul>
+            <li><a href="#">Noticia relacionada 1</a></li>
+            <li><a href="#">Noticia relacionada 2</a></li>
+            <li><a href="#">Noticia relacionada 3</a></li>
+        </ul>
+    </aside>
+</div>
 <footer>
     <p>© 2025 Portal de Noticias</p>
 </footer>
